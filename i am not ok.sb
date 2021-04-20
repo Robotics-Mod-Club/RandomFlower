@@ -1,0 +1,98 @@
+a = 1
+Turtle.Speed = 10
+While 1 = 1
+  n = Math.GetRandomNumber(26)
+If n = 1 Then
+  letter = "a"
+EndIf
+If n = 2 Then
+  letter = "b"
+EndIf
+If n = 3 Then
+  letter = "c"
+EndIf  
+If n = 4 Then
+  letter = "d"
+EndIf  
+If n = 5 Then
+  letter = "e"
+EndIf  
+If n = 6 Then
+  letter = "f"
+EndIf  
+If n = 7 Then
+  letter = "g"
+EndIf  
+If n = 8 Then
+  letter = "h"
+EndIf  
+If n = 9 Then
+  letter = "i"
+EndIf  
+If n = 10 Then
+  letter = "j"
+EndIf  
+If n = 11 Then
+  letter = "k"
+EndIf  
+If n = 12 Then
+  letter = "l"
+EndIf  
+If n = 13 Then
+  letter = "m"
+EndIf  
+If n = 14 Then
+  letter = "n"
+EndIf  
+If n = 15 Then
+  letter = "o"
+EndIf  
+If n = 16 Then
+  letter = "p"
+EndIf  
+If n = 17 Then
+  letter = "q"
+EndIf  
+If n = 18 Then
+  letter = "r"
+EndIf  
+If n = 19 Then
+  letter = "s"
+EndIf  
+If n = 20 Then
+  letter = "t"
+EndIf  
+If n = 21 Then
+  letter = "u"
+EndIf  
+If n = 22 Then
+  letter = "v"
+EndIf  
+If n = 23 Then
+  letter = "w"
+EndIf  
+If n = 24 Then
+  letter = "x"
+EndIf  
+If n = 25 Then
+  letter = "y"
+EndIf  
+If n = 26 Then
+  letter = "z"
+EndIf  
+number = Math.GetRandomNumber(9)
+hmm = Math.GetRandomNumber(2)
+If hmm = 1 Then
+  TextWindow.Write(letter)
+ElseIf hmm = 2 then
+  TextWindow.Write(number)
+EndIf
+hmmm = Math.GetRandomNumber(1000)
+If hmmm = 3 Then
+  TextWindow.Write("urmumgae")
+EndIf
+GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+Turtle.Move(a)
+Turtle.Turn(137)
+a = a + 1
+EndWhile
